@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- <style>
+      body {
+          background-color: chartreuse;
+      }
+
+      /* 最小宽度是800px时 */
+      @media screen and (min-width:599px) {
+          body {
+              background-color: pink;
+          }
+      }
+
+      /* 最小宽度是992px时 */
+      @media screen and (min-width:600px)and (max-width:959px) {
+          body {
+              background-color: skyblue;
+          }
+      }
+
+      /* 最小宽度是1200px时 */
+      @media screen and (min-width:960px) and (max-width:1263px) {
+          body {
+              background-color: orange;
+          }
+      }
+
+      /* 最大宽度是700px时 */
+      @media screen and(min-width:1264px) {
+          body {
+              background-color: rgb(66, 8, 212);
+          }
+      }
+  </style> -->
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <script>
+      // 该文件下无法打包 es5语法写
+      var width = document.documentElement.clientWidth || document.body.clientWidth;
+      var ratio = width / 375;
+      var fontSize = 100 * ratio;
+      document.getElementsByTagName('html')[0].style['font-size'] = fontSize + 'px';
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    built files will be auto injected
+  </body>
+</html> -->
