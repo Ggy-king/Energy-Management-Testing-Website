@@ -5,6 +5,7 @@ import store from './store'
 import 'normalize.css'
 import './style/base.scss'
 import './style/normalize.css'
+import './style/home.scss'
 import './style/animation.css'
 import './style/common.scss'
 

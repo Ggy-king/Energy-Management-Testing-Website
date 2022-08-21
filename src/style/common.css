@@ -44,3 +44,46 @@ input:checked + label::after {
   bottom: .06rem;
   background-color: #E8F5C8;
 }
+
+.head {
+  position: relative;
+  height: 1rem;
+  top: .1rem;
+  border-radius: .4rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0.02rem 0.02rem 0.02rem 0.02rem rgba(0, 0, 0, 0.1);
+}
+
+.head span {
+  position: absolute;
+  bottom: .1rem;
+  right: .5rem;
+  font-size: .12rem;
+  font-weight: bold;
+  color: #50516e;
+}
+
+.subject {
+  font-size: .20rem;
+  font-weight: bold;
+  line-height: .4rem;
+  padding-left: .1rem;
+  margin-left: .2rem;
+}
+
+.body-test {
+  margin-top: .4rem;
+}
+
+.test-title {
+  display: block;
+  font-size: .18rem;
+  font-weight: bold;
+  margin-left: .2rem;
+}
+
+.test {
+  font-size: .18rem;
+  margin-left: .4rem;
+}

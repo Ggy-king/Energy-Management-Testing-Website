@@ -1,7 +1,5 @@
 # energy
 
-## 生活百般 不如做做项目
-
 ## Project setup
 ```
 npm install
