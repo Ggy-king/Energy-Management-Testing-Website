@@ -38,12 +38,15 @@ export default {
       showNumber: ''
     }
   },
+  props: ['change'],
   updated () {
-    const one = localStorage.getItem('resultOne') * 1
-    const two = localStorage.getItem('resultTwo') * 1
-    const three = localStorage.getItem('resultThree') * 1
-    const four = localStorage.getItem('resultFour') * 1
-    this.showNumber = one + two + three + four
+    if (this.showNumber === '') {
+      const one = localStorage.getItem('resultOne') * 1
+      const two = localStorage.getItem('resultTwo') * 1
+      const three = localStorage.getItem('resultThree') * 1
+      const four = localStorage.getItem('resultFour') * 1
+      this.showNumber = one + two + three + four
+    }
   }
 }
 </script>

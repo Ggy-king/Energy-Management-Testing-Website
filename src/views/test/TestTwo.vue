@@ -84,8 +84,8 @@ export default {
   methods: {
     calculation () {
       this.results = parseFloat(this.emotionOne * 1) + parseFloat(this.emotionTwo * 1) + parseFloat(this.emotionThree * 1) + parseFloat(this.emotionFour * 1)
-      localStorage.setItem('resultTwo', this.result)
       console.log(this.results)
+      localStorage.setItem('resultTwo', this.results)
     }
   }
 }

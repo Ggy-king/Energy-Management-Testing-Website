@@ -45,7 +45,7 @@
         </transition>
         <transition>
         <div :class="{containerFinish:sure,'pt-page-moveToTop':as5,'pt-page-moveFromBottom':as6}" v-show="change == 6">
-          <FinishView/>
+          <FinishView :change="change"/>
         </div>
         </transition>
       </div>
